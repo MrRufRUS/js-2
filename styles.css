@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.input-section, .select-section, .button-section {
+    margin: 20px 0;
+    
+}
+
+#input-fields {
+    margin: 20px 0;
+}
+
+input, select, button {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#error-message {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Другие стили */
+.error {
+    border: 2px solid red;
+}
+
+.error:focus {
+    outline: 2px solid red;
+}

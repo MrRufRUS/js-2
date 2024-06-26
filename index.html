@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор трапеции</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор трапеции</h1>
+        <div class="input-section">
+            <label for="input-type">Тип входных данных:</label>
+            <select id="input-type">
+                <option value="sides">Основания и боковая сторона</option>
+                <option value="height">Основания и высота</option>
+            </select>
+            <button id="show-btn">Показать</button>
+        </div>
+        
+        <div id="image-container">
+            <img id="trapezoid-image" src="sides.png" alt="Trapezoid">
+        </div>
+        
+        <div id="input-fields">
+        </div>
+        
+        <div class="select-section">
+            <label for="calculations">Выберите вычисляемые характеристики:</label>
+            <select id="calculations" required multiple>
+                <option value="area">Площадь</option>
+                <option value="angles">Углы</option>
+                <option value="perimeter">Периметр</option>
+            </select>
+        </div>
+        
+        <div class="button-section">
+            <button id="calculate-btn">Вычислить</button>
+            <button id="clear-btn">Очистить</button>
+        </div>
+        
+        <div id="results">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
